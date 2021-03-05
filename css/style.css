@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0px;
+}
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.page-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main-nav-list {
+  display: flex;
+}
+.main-nav-link {
+  display: inline-block;
+  padding: 20px;
+}
+.page-heder-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 100px;
+  position: relative; 
+  background: white;
+  border-radius: 10px;
+}
+.stats::before{
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 52px;
+  bottom: -42px;
+  left: 35px;
+  right: 35px;
+  background: #0D1025;
+  opacity: 0.06;
+  filter: blur(114px);
+  border-radius: 10px;
+}
+.stats-item_icon{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+}
+.stats-item{
+  display: flex;
+  align-items: center;
+}
+.icon-user {
+  color: wheat;
+}
+.stats-item-txt-wrap {
+  display: flex;
+  flex-direction: column;
+  
+}
