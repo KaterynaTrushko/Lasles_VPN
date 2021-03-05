@@ -9,6 +9,9 @@ a {
 li {
   list-style: none;
 }
+a, button, link {
+  cursor: pointer;
+}
 body {
   font-family: "Rubik", sans-serif;
   margin: 0px;
@@ -27,9 +30,22 @@ body {
 .main-nav-list {
   display: flex;
 }
-.main-nav-link {
+.main-nav_link {
   display: inline-block;
   padding: 20px;
+  line-height: 19px;
+  color: #4F5665;
+}
+.main-nav_link:hover, 
+.main-nav_link:focus{
+  color:black;
+}
+.main-nav_link:active{
+  color:rgb(214, 62, 70);
+}
+.pl-text {
+  font-weight: 400;
+  font-size: 16px;
 }
 .page-heder-flex {
   display: flex;
@@ -63,7 +79,7 @@ body {
   align-items: center;
   width: 40px;
   height: 40px;
-  background: red;
+  background: #FFECEC;
   border-radius: 50%;
 }
 .stats-item{
@@ -76,5 +92,30 @@ body {
 .stats-item-txt-wrap {
   display: flex;
   flex-direction: column;
-  
 }
+.main-btn {
+  border-style: none;
+  background: #FCFFFF;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0B132A;
+}
+.main-btn:hover, 
+.main-btn:focus {
+  width: 164px;
+  height: 45px;
+  border: 1px solid #F53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.main-btn:active {
+  outline: none;
+}
+
+
+
+
+
