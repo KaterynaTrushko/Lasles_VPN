@@ -1,12 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1irxcf');
-  src: url('fonts/icomoon.woff?1irxcf') format('woff');
+  src: url('/fonts/icomoon.woff?fv0llh') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -22,12 +20,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-icon-user1:before {
+.icon-user:before {
   content: "\e900";
 }
-.icon-icon-user2:before {
+.icon-loc:before {
   content: "\e901";
 }
-.icon-icon-user3:before {
+.icon-serv:before {
   content: "\e902";
+}
+.icon-tick:before {
+  content: "\e903";
 }
