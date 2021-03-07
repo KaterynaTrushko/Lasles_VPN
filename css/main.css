@@ -20,7 +20,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0px;
 }
 dd {
@@ -310,6 +311,7 @@ margin-bottom: 30px;
   margin-bottom: 50px;
   width: 178px;
   height: 45px;
+  color:#f53838;
   background: #FCFFFF;
   border: 2px solid  #f53838;
   border-radius: 25px;
@@ -321,11 +323,12 @@ margin-bottom: 30px;
 .fourth-section_btn:hover:after{
   content: "";
   position: absolute;
-  width: 222px;
-  height: 60px;
+  width: 127px;
+  height: 45px;
   top: 30px;
   left: 20px;
   right: 20px;
+  color:#f53838;
   background: rgba(245, 56, 56, 0.35);
   filter: blur(54px);
   border-radius: 60px;
@@ -333,4 +336,74 @@ margin-bottom: 30px;
 .fourth-section_btn:focus,
 .fourth-section_btn:hover {
   background:#f53838;
+  color:white;
+}
+.fifth-section_title{
+  display: block;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100px;
+  max-width: 448px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+}
+.fifth-section_text{
+  display: block;
+  max-width: 555px;
+  max-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4F5665; 
+}
+.fifth-section_block {
+  width: 360px;
+  height: 277px;
+  background: #FCFFFF;
+  border: 2px solid #4F5665;
+  border-radius: 10px;
+  padding-top: 33px;
+  padding-left: 36px;
+  padding-right: 33px;
+}
+.fifth-section_block-top {
+  display: flex;
+  justify-content: space-between;
+}
+.fifth-section_foto{
+  width: 50px;
+  height: 50px;
+}
+.fifth-section_block-top--name{
+  margin-right: 60px;
+
+}
+.fifth-section_block-title {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0B132A;
+  
+}
+.fifth-section_block-location{
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 30px;  
+  color: #4F5665;
+}
+.fifth-section_block-text{
+  margin-top: 23px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #0B132A;
 }
