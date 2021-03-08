@@ -422,11 +422,24 @@ margin-bottom: 30px;
   color: #FEA250;
   right: -30px;
 }
+.fifth-sect_btn-item--act{
+
+  width: 45px;
+  height: 15px;
+  background-color: #f53838;
+  border-radius: 15px;
+
+}
 .fifth-sect_btn-item--l{
+  display: inline-block;
   width: 15px;
   height: 15px;
+  margin-left: 15px;
   background: #DDE0E4;
   border-radius: 50%;
+}
+.fifth-sect_btn-item--l:focus {
+  border-radius: 1px solid #f53838;
 }
 .fifth-sect_btn-item--r{
   width: 60px;
@@ -436,8 +449,22 @@ margin-bottom: 30px;
   border: 2px solid #F53838;
   box-sizing: border-box;
   box-shadow: 0px 14px 44px rgba(14, 20, 34, 0.08);
-
 }
+.btn-style{
+  background: #FCFFFF;
+  outline: #f53838;
+}
+.icon-style_right{
+  font-family: "icomoon";
+  font-size: 18px;
+  color: #FCFFFF;
+}
+.icon-style_left{
+  font-family: "icomoon";
+  font-size: 18px;
+  color: #f53838;
+}
+
 .fifth-sect_left-btn{
   margin-top: 65px;
 }
@@ -446,6 +473,7 @@ margin-bottom: 30px;
 }
 .sixth-sect_btn-item {
   display: block;
+  position: relative;
   margin-top: 68px;
   margin-right: 97px;
   width: 263px;
@@ -455,6 +483,19 @@ margin-bottom: 30px;
   font-size: 16px;
   line-height: 25px;
   color: #FCFFFF;
+}
+.sixth-sect_btn-item:hover:after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 222px;
+  height: 60px;
+  top: 30px;
+  left: 20px;
+  right: 20px;
+  background: rgba(245, 56, 56, 0.35);
+  filter: blur(54px);
+  border-radius: 10px; 
 }
 .sixth-sect_litle{
   max-width: 372px;
@@ -520,6 +561,7 @@ margin-bottom: 30px;
   color: #0B132A;
 }
 .footer-item{
+  margin-top: 10px;
   font-size: 16px;
   line-height: 30px;
   color: #4F5665;
