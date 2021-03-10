@@ -232,7 +232,7 @@ dd {
   border-radius: 50%;
   background: #2FAB73;
 }
-.fourth-section_second-titel {
+.plan-titel {
   margin-top: 82px;
   font-weight: 500;
   font-size: 35px;
@@ -240,7 +240,7 @@ dd {
   text-align: center;
   color: #0B132A;
 }
-.fourth-section_second-text {
+.plan-text {
   margin-top: 20px;
   margin-bottom: 60px;
   font-size: 16px;
@@ -248,7 +248,7 @@ dd {
   text-align: center;
   color: #4F5665;
 }
-.fourth-section_block {
+.plan-cont {
   display: flex;
   flex-direction:column;
   justify-content: space-between;
@@ -258,7 +258,7 @@ dd {
   border: 2px solid #DDDDDD;
   border-radius: 10px;
 }
-.fourth-section_img {
+.plan-cont__img {
   display: block;
   margin-top: 80px;
   margin-bottom: 30px;
@@ -267,7 +267,7 @@ dd {
   width: 145px;
   height: 165px;
 }
-.block_title {
+.plan-cont__title {
 font-weight: 500;
 font-size: 18px;
 line-height: 30px;
@@ -275,14 +275,14 @@ text-align: center;
 color: #0B132A;
 margin-bottom: 30px;
 }
-.block_item{
+.plan-cont__item{
   position: relative;
   font-size: 14px;
   line-height: 37px;
   color: #4F5665; 
   padding-left: 130px;
 }
-.block_item:before {
+.plan-cont__item:before {
   content: "\e903";
   position: absolute;
   font-family: 'icomoon';
@@ -290,11 +290,11 @@ margin-bottom: 30px;
   color: #2fab73;
   left: 90px;
 }
-.fourth-section_btn-title--unbold {
+.plan__title-unbold {
   font-weight: 400;
   color: #4F5665;
 }
-.fourth-section_btn-title{
+.plan__title{
   margin-top: 0px;
   margin-bottom: 20px;
   font-weight: 500;
@@ -303,7 +303,7 @@ margin-bottom: 30px;
   text-align: center;
   color: #0B132A;
 }
-.fourth-section_btn{
+.plan__btn{
   display: block;
   position: relative;
   z-index: 1;
@@ -320,7 +320,7 @@ margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
-.fourth-section_btn:hover:after{
+.plan__btn:hover:after{
   content: "";
   position: absolute;
   width: 127px;
@@ -333,8 +333,8 @@ margin-bottom: 30px;
   filter: blur(54px);
   border-radius: 60px;
 }
-.fourth-section_btn:focus,
-.fourth-section_btn:hover {
+.plan__btn:focus,
+.plan__btn:hover {
   background:#f53838;
   color:white;
 }
