@@ -19,6 +19,7 @@ link {
 body {
   font-family: "Rubik", sans-serif;
   margin: 0px;
+  min-width:1170px;
 }
 h1,
 h2,
